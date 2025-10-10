@@ -8,7 +8,6 @@ class Solution:
         for i in range(n):
             res += skill[i] * mana[0]
         prev_start = 0
-
         def valid(j):
             time_prev = prev_start
             time = 0
