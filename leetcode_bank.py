@@ -6,3 +6,5 @@ class Solution:
             dayAddition = i % 7
             res += addition + dayAddition
         return res
+
+        
